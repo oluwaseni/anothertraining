@@ -1,0 +1,108 @@
+.whole-body{
+    /* padding: 10px 20px 5px 20px; */
+}
+
+.header{
+    background-color: #dfece1;
+    padding: 10px;
+    padding-left: 20px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content{
+    padding: 20px;
+}
+
+/* .whole-body .content p{
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: #ffffff;
+} */
+
+.footer{
+    background-color: #dfece1;
+    padding: 10px;
+    padding-left: 20px;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.camera .nikon{
+    color: red;
+}
+
+.camera{
+margin-top: 50px;
+padding: 20px;
+
+}
+
+.nikon-table {
+    width: 400px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.intro{
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.intro h1{
+    font-size: 50px;
+    margin-top: 50px;
+    /* margin-bottom: 10px; */
+}
+
+.intro p{
+    color: #727171;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.image {
+    width: 450px;
+    float: right;
+    margin-top: -100px; margin-right: 50px;
+}
+
+.nikon .nikon-table {
+    width: 50px;
+    height: 50px;
+}
+
+.stand .nikon{
+    text-align: center;
+}
+
+.stand .nikon h2{
+    font-size: 50px;
+}
+
+ul {
+display: flex; /* Make UL a flex container */
+flex-direction: row; /* Arrange items in a row */
+/* list-style-type: none; Remove default bullets */
+padding: 0;
+margin: 0;
+gap: 20px; /* Space between items */
+}
+li {
+/* background: #eee; */
+padding: 10px 15px;
+}
