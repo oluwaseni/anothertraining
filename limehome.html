@@ -3,6 +3,8 @@
         <title>Limehome</title>
         <link rel="stylesheet" href="limehome.css">
 
+     
+
     </head>
     <body>
         <div class="whole-body">
@@ -18,7 +20,7 @@
                     <span class="grey-text">
                         Berlin Tauenstrasse
                     </span>
-                    <h1 class="welcome">
+                    <h1 id="welcome">
                         Welcome Home
                     </h1>
 
@@ -51,6 +53,12 @@
                         <button type="submit" class="search-button">Search Suites</button>      
                     </form>
 
+                    <div class="javas">
+                    <button type="submit" class="search-button" onclick="checkDriverEligibility(25, 'male', 'Nigeria')">Check Driver Eligibility</button>  
+                    </div>
+                    <div class="javas">
+                    <button type="submit" class="search-button" onclick="approveDriverEligibility(50)">Approve All Drivers Eligibility</button>  
+                    </div>
                     <p class="grey-text">
                         We are a tech company that provides fully furnished <br> apartments for short-term and long-term stays.
                     </p>
@@ -64,6 +72,8 @@
 
         </div>
 
+
+    <script src="limehome.js"></script>
 
     </body>
 
