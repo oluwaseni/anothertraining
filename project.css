@@ -1,0 +1,28 @@
+.navbar-nav{
+
+    position:absolute; float:right;
+    background-color: #ca6827;
+
+}
+
+.word{
+
+    padding-top: 5%;
+}
+.back{
+    padding-top: 3%;
+    padding-bottom: 2%; 
+}
+
+.word1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.row{
+    padding-top: 5%;
+}
+.colur{
+    background-color: #52e218;
+    
+    padding-bottom: 5%;
+}
